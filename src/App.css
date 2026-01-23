@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Umumiy tugma stili */
+button {
+    padding: 10px 30px;
+    border-radius: 9999px; /* Rasmdagi kabi yumaloq */
+    transition: all 0.3s ease;
+}
+
+/* Matnlar orasidagi masofa (Mobil uchun kichraytirildi) */
+h1, p, button {
+    margin-bottom: 10px; /* Mobilda kamroq masofa */
+}
+
+/* Kompyuter ekrani uchun masofani oshiramiz */
+@media (min-width: 768px) {
+    h1, p, button {
+        margin-bottom: 20px;
+    }
+}
+
+/* Ikonka atrofidagi span (Mobilda kichikroq, desktopda kattaroq) */
+span {
+    padding: 10px; /* Mobilda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    span {
+        padding: 17px; /* Siz yozgan qiymat desktop uchun */
+    }
+}
+
+/* Oq info blok (Aholi klassi) */
+.aholi {
+    padding: 15px; /* Mobilda ixcham */
+    position: relative;
+    top: 20px; /* Mobilda matnga yaqin turishi uchun */
+    background-color: rgba(255, 255, 255, 0.95);
+    display: grid; /* Mobil uchun grid tizimi */
+    grid-template-columns: repeat(2, 1fr); /* 2 ustunli */
+    gap: 15px;
+    border-radius: 25px;
+}
+
+/* Kompyuter ekrani uchun .aholi stili */
+@media (min-width: 768px) {
+    .aholi {
+        padding: 30px;
+        top: 0px; /* Desktopda joyida tursin yoki ozgina surilsin */
+        display: flex; /* Yonga qator qilib tizish */
+        justify-content: space-around;
+        border-radius: 100px; /* Rasmdagi kabi uzunchoq yumaloq */
+    }
+}
+
+/* Tugma oq blok ichida pastga tushib qolmasligi uchun (Mobil uchun) */
+.aholi button {
+    grid-column: span 2; /* Mobilda tugma to'liq eniga bo'ladi */
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .aholi button {
+        grid-column: auto;
+        width: auto;
+    }
+}
+
+
+
+.swiper-pagination-bullet {
+    width: 2px !important;    
+    height: 2px !important;   
+    background: white !important; 
+    opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 5px !important;   
+    background: #14b8a6 !important; 
+    opacity: 1 !important;
+}
+
+
+
+
+

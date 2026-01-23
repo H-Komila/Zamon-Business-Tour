@@ -1,0 +1,24 @@
+
+{
+   "nav": {
+   "home":"Home",
+   "about": "About",
+   "tours": "Tours",
+   "contacts": "Contacts"
+},
+
+   "header": {
+    "text": "Take a Glimpse Into The Beautiful City Of:",
+    "title": "Istanbul",
+    "button": "Go There",
+
+    "title4": "Antaliya",
+    "title5": "Dubay",
+    "title6": "Sharm El-Sheikh",
+
+    "title1": "Population:",
+    "title2": "Territory:",
+    "title3": "AVG Price:",
+    "btn": "Explore More"
+   }
+}

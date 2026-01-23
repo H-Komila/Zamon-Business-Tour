@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "tours": "Sayohatlar",
+    "contacts": "Kontaktlar"
+  },
+
+  "header": {
+    "text": "Go'zal shaharlarga nazar tashlang:",
+    "title": "Istanbul",
+    "button": "Sayohat qilish",
+    "title4": "Antaliya",
+    "title5": "Dubay",
+    "title6": "Sharm ash-Shayx",
+    "title1": "Aholi soni:",
+    "title2": "Hududi:",
+    "title3": "O'rtacha narx:",
+    "btn": "Batafsil ma'lumot"
+  }
+}
