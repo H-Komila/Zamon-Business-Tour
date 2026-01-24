@@ -15,28 +15,28 @@
     padding: 20px;
 }
 
-/* Umumiy tugma stili */
+
 button {
     padding: 10px 30px;
-    border-radius: 9999px; /* Rasmdagi kabi yumaloq */
+    border-radius: 9999px; 
     transition: all 0.3s ease;
 }
 
-/* Matnlar orasidagi masofa (Mobil uchun kichraytirildi) */
+
 h1, p, button {
-    margin-bottom: 10px; /* Mobilda kamroq masofa */
+    margin-bottom: 10px; 
 }
 
-/* Kompyuter ekrani uchun masofani oshiramiz */
+
 @media (min-width: 768px) {
     h1, p, button {
         margin-bottom: 20px;
     }
 }
 
-/* Ikonka atrofidagi span (Mobilda kichikroq, desktopda kattaroq) */
+
 span {
-    padding: 10px; /* Mobilda */
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,36 +44,36 @@ span {
 
 @media (min-width: 768px) {
     span {
-        padding: 17px; /* Siz yozgan qiymat desktop uchun */
+        padding: 17px; 
     }
 }
 
-/* Oq info blok (Aholi klassi) */
+
 .aholi {
-    padding: 15px; /* Mobilda ixcham */
+    padding: 15px;
     position: relative;
-    top: 20px; /* Mobilda matnga yaqin turishi uchun */
+    top: 20px; 
     background-color: rgba(255, 255, 255, 0.95);
-    display: grid; /* Mobil uchun grid tizimi */
-    grid-template-columns: repeat(2, 1fr); /* 2 ustunli */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
     gap: 15px;
     border-radius: 25px;
 }
 
-/* Kompyuter ekrani uchun .aholi stili */
+
 @media (min-width: 768px) {
     .aholi {
         padding: 30px;
-        top: 0px; /* Desktopda joyida tursin yoki ozgina surilsin */
-        display: flex; /* Yonga qator qilib tizish */
+        top: 0px; 
+        display: flex; 
         justify-content: space-around;
-        border-radius: 100px; /* Rasmdagi kabi uzunchoq yumaloq */
+        border-radius: 100px; 
     }
 }
 
-/* Tugma oq blok ichida pastga tushib qolmasligi uchun (Mobil uchun) */
+
 .aholi button {
-    grid-column: span 2; /* Mobilda tugma to'liq eniga bo'ladi */
+    grid-column: span 2; 
     margin-bottom: 0;
 }
 
@@ -100,6 +100,34 @@ span {
 }
 
 
+.royhat{
+   padding: 20px;
+}
+header input{
+    padding: 15px;
+}
+
+header h2{
+    padding: 20px;
+}
+
+
+:root {
+  --nav-bg: #14b8a6; 
+  --text-color: #ffffff;
+}
+
+body.darkMode {
+  --nav-bg: #000000d6; 
+  --text-color: #f1f5f9;
+  background-color: #000000; 
+}
+
+
+.nav-dynamic {
+  background-color: var(--nav-bg) !important;
+  color: var(--text-color);
+}
 
 
 

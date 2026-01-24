@@ -7,7 +7,7 @@
   },
 
   "header": {
-    "text": "Go'zal shaharlarga nazar tashlang:",
+    "text": "Siz yoqtirib qolishingiz aniq bo'lgan shahar:",
     "title": "Istanbul",
     "button": "Sayohat qilish",
     "title4": "Antaliya",
@@ -17,5 +17,26 @@
     "title2": "Hududi:",
     "title3": "O'rtacha narx:",
     "btn": "Batafsil ma'lumot"
+  },
+
+  "komila":{
+     "title": "Ro'yhatdan o'ting",
+     "text": "Ismingiz",
+     "text1": "Fmiliyangiz",
+     "text2": "Telefon",
+     "btn": "Yuborish"
+  },
+
+   "article": {
+    "subtitle": "Har bir shahardagi eng yaxshi haftalik takliflar",
+    "pages": "Har bir shahar uchun maxsus tanlab olingan eng yaxshi haftalik takliflarni kashf eting. Tejash dunyosiga sho‘ng‘ing va unutilmas tajribalardan bahramand bo‘ling.",
+    "title": "AQSh",
+    "text": "400 buyurtmalar",
+    "text1": "/kishi",
+    "title1": "Taklif tarkibiga kiradi:",
+    "text2": "5 kunlik sayohat > Mehmonxona",
+    "text3": "Aviabilet",
+    "text4": "Eng Yahshi Manzillar",
+    "btn": " Joy Band qilish"
   }
 }

@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Logo from './images/logozamon.svg';
 import { HiBarsArrowDown } from "react-icons/hi2";
 import { HiBarsArrowUp } from "react-icons/hi2";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
+import { MdDarkMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md";
 
 const Nav = () => {
 
@@ -16,10 +18,25 @@ const Nav = () => {
         i18n.changeLanguage(e.target.value);
     };
 
+   const [darkMode, setDarkMode] = useState(
+        () => localStorage.getItem("darkMode") === "true"
+    );
+
+    useEffect(() => {
+        if (darkMode) {
+            document.body.classList.add("darkMode");
+            document.body.classList.remove("lightMode");
+        } else {
+            document.body.classList.add("lightMode");
+            document.body.classList.remove("darkMode");
+        }
+        
+        localStorage.setItem("darkMode", darkMode);
+    }, [darkMode]);
+
 
     return (
-        <nav className='nav bg-teal-500 py-4 fixed top-0 right-0 left-0 z-50 '>
-            <div className='container mx-auto px-4'>
+<nav className={`nav py-4 fixed top-0 right-0 left-0 z-[100] transition-all duration-300 nav-dynamic`}>            <div className='container mx-auto px-4'>
                 <div className='flex items-center justify-between'>
 
 
@@ -29,10 +46,10 @@ const Nav = () => {
 
 
                     <ul className='hidden md:flex items-center gap-10 '>
-                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.home")}</a></li>
-                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.about")}</a></li>
-                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.tours")}</a></li>
-                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.contacts")}</a></li>
+                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-blue-400  transition transform duration-300 hover:scale-200'>{t("nav.home")}</a></li>
+                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-blue-400  transition transform duration-300 hover:scale-200'>{t("nav.about")}</a></li>
+                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-blue-400  transition transform duration-300 hover:scale-200'>{t("nav.tours")}</a></li>
+                        <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-blue-400  transition transform duration-300 hover:scale-200'>{t("nav.contacts")}</a></li>
 
                     </ul>
 
@@ -44,6 +61,9 @@ const Nav = () => {
                         </select>
                         <a href="#"><FaTelegram className='text-2xl text-white  hover:scale-110 transition' /></a>
                         <a href="#"><FaInstagram className='text-2xl text-white hover:scale-110 transition' /></a>
+                         <button onClick={() => setDarkMode(!darkMode)} className="relative top-2 text-2xl">
+            {darkMode ? <MdLightMode className='text-amber-300' /> : <MdDarkMode className='text-black/50' />}
+        </button>
                     </div>
 
 
@@ -75,7 +95,11 @@ const Nav = () => {
                         <div className='flex items-center gap-10'>
                             <FaTelegram className='text-4xl text-white cursor-pointer' />
                             <FaInstagram className='text-4xl text-white cursor-pointer' />
+                            <button onClick={() => setDarkMode(!darkMode)} className="text-4xl "> 
+            {darkMode ?  <MdLightMode className='text-amber-300' /> : <MdDarkMode className='text-black' />}
+        </button>
                         </div>
+                        
                     </div>
                 </div>
             </div>

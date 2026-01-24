@@ -20,5 +20,29 @@
     "title2": "Territory:",
     "title3": "AVG Price:",
     "btn": "Explore More"
-   }
+   },
+
+
+    "komila": {
+    "title": "Sign up",
+    "text": "First name",
+    "text1": "Last name",
+    "text2": "Phone",
+    "btn": "Submit"
+  },
+
+  "article":{
+
+      "subtitle": "Best Weekly Offers In Each City",
+      "pages": "Discover the best weekly offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
+      "title": "USA",
+      "text": "400 Check",
+      "text1": "/person",
+      "title1": "Deal Includes:",
+      "text2":  "5 Days Trip > Hotel Included",
+      "text3": "Airplane Bil Included",
+      "text4": "Daily Places Visit",
+      "btn": "Make A Reservation"
+
+  }
 }
