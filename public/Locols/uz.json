@@ -68,5 +68,73 @@
   "text3": "Qisqa rasmiylashtirish muddati",
   "text4": "Ishonchli yordam",
   "btn": " Joy band qilish"
+},
+
+
+"aside": {
+  "subtitle": "Manzillarni oson kashf eting",
+  "pages": "Har bir shaharda siz uchun sinchiklab tanlangan temiryo‘l va samolyot chiptalaridagi eng yaxshi takliflarni toping.",
+  "title": "Biz bilan arzon temiryo‘l chiptalari",
+  "title1": "Qiziqarli havo sayohati takliflarini kashf eting",
+  "text": "Butun dunyo",
+  "text1": "Global manzillar",
+  "text2": "Temiryo‘l sarguzashtiga chiqing va butun dunyoni kashf qiling. Go‘zal manzaralar, gavjum shaharlar yoki madaniy yodgorliklar bo‘lsin, bizning temiryo‘l xizmatlarimiz sayohat qilishning noyob va qulay usulini taklif qiladi. Turli madaniyatlarning go‘zalligiga sho‘ng‘ing, hammasi bizning keng temiryo‘l tarmog‘imiz orqali mavjud.",
+  "text3": "Havo sarguzashtiga chiqing va butun dunyoni kashf qiling. Hayratlanarli manzaralar, jonli shaharlar yoki madaniy xazinalar bo‘lsin, bizning aviakompaniyalar xizmatlari sayohat qilishning qulay va hayajonli usulini taklif qiladi. Turli madaniyatlarning boyligiga sho‘ng‘ing, hammasi keng havo sayohati tarmog‘imiz orqali osonlik bilan mavjud.",
+  "btn": "Batafsil o‘rganish"
+},
+
+"main": {
+  "subtitle": "Hoziroq mamlakatlarimizdan biriga tashrif buyuring",
+  "pages": "Har bir shahardagi eng yaxshi takliflarni kashf eting, ular siz uchun maxsus tanlab olingan. Tejamkorlik olamiga sho‘ng‘ing va betakror tajribalardan bahramand bo‘ling.",
+
+  "title": "Dubay",
+  "title1": "Antaliya",
+  "title2": "Sharm ash-Shayx",
+  "title3": "Istanbul",
+
+  "text": "Birlashgan Arab Amirliklari",
+  "text1": "Turkiya",
+  "text2": "Misr",
+
+  "text3": "Dubay — Birlashgan Arab Amirliklaridagi shahar va amirlik bo‘lib, hashamatli savdo markazlari, zamonaviy me’morchiligi va jonli tungi hayoti bilan mashhur. 830 metr balandlikdagi Burj Xalifa osmono‘par binolar manzarasida yetakchi o‘rinni egallaydi. Uning etagida musiqa va yorug‘lik bilan uyg‘unlashgan Dubay favvorasi joylashgan. Sun’iy orollarda esa Atlantis The Palm kurorti, akvapark va dengiz hayvonlari bog‘i bilan joylashgan.",
+  "text4": "Antaliya — Turkiyaning eng tez rivojlanayotgan shahri bo‘lib, butun dunyodan kelgan sayyohlarni ajoyib plyajlar va an’anaviy turk madaniyatining uyg‘unligi bilan o‘ziga tortadi. Bolalar Aqua Land akvaparki va Dolphin Land delfinariysi joylashgan Beach Parkni juda yaxshi ko‘rishadi. Shuningdek, eski shahar markazi va Adrian darvozasini ko‘rish tavsiya etiladi.",
+  "text5": "Sharm ash-Shayx Sinay yarimorolining turizm markazi bo‘lib, dunyodagi eng mashhur sho‘ng‘ish maskanlaridan biridir. Ayniqsa, Ras Muhammad milliy bog‘ining suv osti mo‘jizalari shaharni butunlay yangi darajaga olib chiqdi. Bu yerda Qizil dengizning betakror dengiz hayotini kashf etish uchun dunyoning turli burchaklaridan professional va havaskor dayverlar tashrif buyuradi.",
+  "text6": "Istanbul — Turkiyaning eng yirik shahri va uning madaniy, iqtisodiy hamda tarixiy markazidir. U mamlakatning shimoli-g‘arbida joylashgan bo‘lib, Marmar va Qora dengizlarni bog‘lovchi Bosfor bo‘g‘ozi orqali Yevropa va Osiyo qismlariga bo‘lingan. Istanbul — dunyoda ikki qit’ada joylashgan yagona shahardir.",
+
+  "button": "Batafsil o‘rganish",
+
+  "people1": "44.48 mln aholi",
+  "people": "8.66 mln aholi",
+  "people2": "67.41 mln aholi",
+
+  "link": "Yo‘nalish kerakmi?"
+},
+
+"best": {
+  "subtitle": "Eng yaxshi manzillar",
+  "pages": "Har bir shahardagi eng yaxshi takliflarni kashf eting, siz uchun maxsus tanlab olingan. Tejamkorlik olamiga sho‘ng‘ing va betakror tajribalardan bahramand bo‘ling.",
+
+  "title": "Dubay",
+  "title1": "Antaliya",
+  "title2": "Istanbul",
+  "title3": "Sharm ash-Shayx",
+  "title4": "Parij",
+
+  "text": "Aholi soni: 2 mln",
+  "text1": "Aholi soni: 3.5 mln",
+  "text2": "Aholi soni: 4.1 mln",
+  "text3": "Aholi soni: 4 mln",
+  "text4": "Aholi soni: 3 mln"
+},
+
+"wath": {
+  "text": "Mos keladigan taklifni shu yerda bron qiling",
+  "title": "Buyurtma bering",
+  "btn": "Batafsil bilish",
+  "text1": "Telefon orqali qo‘ng‘iroq qilish",
+  "text2": "Elektron pochta orqali bog‘lanish",
+  "text3": "Ofisimizga tashrif buyurish",
+  "text4": "15/25, Chilonzor – 9, Toshkent shahri"
 }
+
 }

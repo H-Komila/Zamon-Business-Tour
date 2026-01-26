@@ -51,12 +51,11 @@ const Header = () => {
                 modules={[Autoplay, EffectFade, Pagination]}
                 effect={'fade'}
                 autoplay={{ delay: 5000 }}
-                pagination={{ clickable: true }}
                 className="h-full w-full"
             >
                 {data.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <div 
+                        <div
                             style={{ backgroundImage: `url(${item.img})` }}
                             className="bg-cover bg-center h-screen w-full flex items-center justify-center relative px-4"
                         >
@@ -76,7 +75,7 @@ const Header = () => {
                                 
                                 <button 
                                     onClick={() => setIsOpen(true)} 
-                                    className="px-10 py-3 rounded-full bg-[#17b1bc] font-bold hover:bg-teal-600 transition-all text-sm uppercase mb-10"
+                                    className="w-fit px-8 py-4 text-white rounded-full bg-teal-500 font-bold shadow-lg shadow-teal-100 hover:bg-teal-600 hover:scale-105 active:scale-95 transition-all text-sm mb-20 uppercase"
                                 > 
                                     {t("header.button")}
                                 </button>

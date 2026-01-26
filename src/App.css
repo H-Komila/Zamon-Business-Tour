@@ -33,7 +33,7 @@
 }
 
 body.darkMode {
-  --nav-bg: #000000d6; 
+  --nav-bg: #000000; 
   --text-color: #f1f5f9;
   background-color: #000000; 
 }
@@ -44,7 +44,14 @@ body.darkMode {
   color: var(--text-color);
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
 
 
 

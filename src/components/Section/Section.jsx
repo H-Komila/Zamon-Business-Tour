@@ -46,7 +46,7 @@ const Section = () => {
   };
 
   return (
-    <div className='article py-10 overflow-hidden'>
+    <section className='article py-10 overflow-hidden'>
       <div className='container mx-auto px-4'>
         <div className='flex items-center justify-center text-center mb-10 px-4'>
           <span className='flex flex-col items-center'>
@@ -121,7 +121,8 @@ const Section = () => {
           </Slider>
         </div>
       </div>
-    </div>
+      <hr className='mt-40 text-gray-100' />
+    </section>
   );
 }
 
