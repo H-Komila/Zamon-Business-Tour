@@ -1,13 +1,7 @@
 @import "tailwindcss";
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
+
 
 .container{
     max-width: 1200px;
@@ -15,74 +9,6 @@
     padding: 20px;
 }
 
-
-button {
-    padding: 10px 30px;
-    border-radius: 9999px; 
-    transition: all 0.3s ease;
-}
-
-
-h1, p, button {
-    margin-bottom: 10px; 
-}
-
-
-@media (min-width: 768px) {
-    h1, p, button {
-        margin-bottom: 20px;
-    }
-}
-
-
-span {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (min-width: 768px) {
-    span {
-        padding: 17px; 
-    }
-}
-
-
-.aholi {
-    padding: 15px;
-    position: relative;
-    top: 20px; 
-    background-color: rgba(255, 255, 255, 0.95);
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 15px;
-    border-radius: 25px;
-}
-
-
-@media (min-width: 768px) {
-    .aholi {
-        padding: 30px;
-        top: 0px; 
-        display: flex; 
-        justify-content: space-around;
-        border-radius: 100px; 
-    }
-}
-
-
-.aholi button {
-    grid-column: span 2; 
-    margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-    .aholi button {
-        grid-column: auto;
-        width: auto;
-    }
-}
 
 
 
@@ -99,17 +25,6 @@ span {
     opacity: 1 !important;
 }
 
-
-.royhat{
-   padding: 20px;
-}
-header input{
-    padding: 15px;
-}
-
-header h2{
-    padding: 20px;
-}
 
 
 :root {
@@ -128,6 +43,9 @@ body.darkMode {
   background-color: var(--nav-bg) !important;
   color: var(--text-color);
 }
+
+
+
 
 
 

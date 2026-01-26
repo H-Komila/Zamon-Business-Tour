@@ -29,14 +29,44 @@
 
    "article": {
     "subtitle": "Har bir shahardagi eng yaxshi haftalik takliflar",
-    "pages": "Har bir shahar uchun maxsus tanlab olingan eng yaxshi haftalik takliflarni kashf eting. Tejash dunyosiga sho‘ng‘ing va unutilmas tajribalardan bahramand bo‘ling.",
+    "pages": "Har bir shahardagi eng yaxshi haftalik takliflarni kashf eting, siz uchun maxsus tanlangan. Tejash olamiga sho‘ng‘ing va beqiyos tajribalardan bahramand bo‘ling.",
     "title": "AQSh",
-    "text": "400 buyurtmalar",
-    "text1": "/kishi",
-    "title1": "Taklif tarkibiga kiradi:",
-    "text2": "5 kunlik sayohat > Mehmonxona",
-    "text3": "Aviabilet",
-    "text4": "Eng Yahshi Manzillar",
-    "btn": " Joy Band qilish"
-  }
+    "title2": "Angliya",
+    "title3": "Kanada",
+    "title4": "Yevropa Ittifoqi",
+    "title5": "Istambul",
+    "title6": "Dubay",
+    "title7": "Antaliya",
+    "title8": "Sharm El-Sheykh",
+    "text": "400 Tekshirish",
+    "text5": "234 Tekshirish",
+    "text6": "345 Tekshirish",
+    "text8": "300 Tekshirish",
+    "text9": "200 Tekshirish",
+    "text10": "500 Tekshirish",
+    "text1": "/odam",
+    "title1": "Taklifga kiradi:",
+    "text2": "5 kunlik sayohat > Mehmonxona kiritilgan",
+    "text3": "Samolyot chiptasi kiritilgan",
+    "text4": "Har kuni joylarni ziyorat qilish",
+    "btn": "Joy band qilish"
+  },
+
+  "section": {
+  "subtitle": "Viza yordami",
+  "pages": "Bizning professional viza xizmatimiz bilan stresssiz sayohat qiling. To‘liq maslahat va ishonchli yordam orqali safaringizni oson va qulay qilamiz.",
+  "title": "Gonkong",
+  "title1": "Yevropa (Shengen)",
+  "title2": "Hindiston",
+  "title3": "Yaponiya",
+  "title4": "Saudiya Arabistoni",
+  "title5": "Ummon",
+  "title6": "Xitoy",
+  "text": "232 ta muvaffaqiyatli ariza",
+  "text1": "Viza yordami xizmatining afzalliklari:",
+  "text2": "Eng yaxshi narxlar",
+  "text3": "Qisqa rasmiylashtirish muddati",
+  "text4": "Ishonchli yordam",
+  "btn": " Joy band qilish"
+}
 }

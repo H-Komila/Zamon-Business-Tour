@@ -36,7 +36,19 @@
       "subtitle": "Best Weekly Offers In Each City",
       "pages": "Discover the best weekly offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.",
       "title": "USA",
+      "title2": "England",
+      "title3": "Canada",
+      "title4": "European Union",
+      "title5": "Istanbul",
+      "title6": "Dubay",
+      "title7": "Antalya",
+      "title8": "Sharm El-Sheikh",
       "text": "400 Check",
+      "text5": "234 Check",
+      "text6": "345 Check",
+      "text8": "300 Check",
+      "text9": "200 Check",
+      "text10": "500 Check",
       "text1": "/person",
       "title1": "Deal Includes:",
       "text2":  "5 Days Trip > Hotel Included",
@@ -44,5 +56,23 @@
       "text4": "Daily Places Visit",
       "btn": "Make A Reservation"
 
+  },
+
+  "section":{
+      "subtitle": "Visa support",
+      "pages": "Experience stress-free travel with our expert visa support. We provide seamless assistance and comprehensive guidance, ensuring a smooth journey.",
+      "title":  "Hong Kong",
+      "title1": "European (Schengen)",
+      "title2": "India",
+      "title3": "Japan",
+      "title4": "Saudi Arabia",
+      "title5": "Oman",
+      "title6": "China",
+      "text": "232 Chesk Ins",
+      "text1": "Benefits of Visa Support service:",
+      "text2": "Best Prices",
+      "text3": "Short Processing Time",
+      "text4": "Trustworthy Assistance",
+      "btn": "Make A Reservation"
   }
 }

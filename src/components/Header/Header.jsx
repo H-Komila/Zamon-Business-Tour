@@ -122,7 +122,7 @@ const Header = () => {
                                         <div className="col-span-2 md:col-span-1 md:pl-4">
                                             <button 
                                                 onClick={() => setIsOpen(true)} 
-                                                className='w-full py-3 md:py-4 rounded-full text-xs md:text-sm font-bold bg-[#17b1bc] text-white hover:bg-black transition-all'
+                                                className='w-full py-3 md:py-4 rounded-full text-xs md:text-sm font-bold bg-[#17b1bc] text-white hover:bg-teal-600 transition-all'
                                             >
                                                 {t("header.btn")}
                                             </button>
@@ -143,9 +143,9 @@ const Header = () => {
                         </button>
                         <h2 className="text-2xl font-black text-center mb-6">{t("komila.title")}</h2>
                         <form onSubmit={SendMessage} className="flex flex-col gap-4 royhat">
-                            <input type="text" placeholder={t("komila.text")} className=     "]w-full px-5 py-3 rounded-xl border" value={name} onChange={(e) => setName(e.target.value)} required />
-                            <input type="text" placeholder={t("komila.text1")} className=    "]w-full px-5 py-3 rounded-xl border" value={surname} onChange={(e) => setSurname(e.target.value)} required />
-                            <input type="number" placeholder= {t("komila.text2")} className= "]w-full px-5 py-3 rounded-xl border" value={tell} onChange={(e) => setTell(e.target.value)} required />
+                            <input type="text" placeholder={t("komila.text")} className=     "w-full px-5 py-3 rounded-xl border" value={name} onChange={(e) => setName(e.target.value)} required />
+                            <input type="text" placeholder={t("komila.text1")} className=    "w-full px-5 py-3 rounded-xl border" value={surname} onChange={(e) => setSurname(e.target.value)} required />
+                            <input type="number" placeholder= {t("komila.text2")} className= "w-full px-5 py-3 rounded-xl border" value={tell} onChange={(e) => setTell(e.target.value)} required />
                             <button type="submit" className="w-full py-4 bg-[#17b1bc] text-white rounded-xl font-bold flex items-center justify-center gap-2 uppercase">
                                 {t("komila.btn")} <GoSignOut className='rotate-180' />
                             </button>

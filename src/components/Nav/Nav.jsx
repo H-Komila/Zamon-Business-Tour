@@ -8,6 +8,8 @@ import { useTranslation } from 'react-i18next';
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
 
+
+
 const Nav = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +38,7 @@ const Nav = () => {
 
 
     return (
-<nav className={`nav py-4 fixed top-0 right-0 left-0 z-[100] transition-all duration-300 nav-dynamic`}>            <div className='container mx-auto px-4'>
+<nav className={`nav py-0  fixed top-0 right-0 left-0 z-[100] transition-all duration-300 nav-dynamic`}>            <div className='container mx-auto px-4'>
                 <div className='flex items-center justify-between'>
 
 
@@ -61,8 +63,8 @@ const Nav = () => {
                         </select>
                         <a href="#"><FaTelegram className='text-2xl text-white  hover:scale-110 transition' /></a>
                         <a href="#"><FaInstagram className='text-2xl text-white hover:scale-110 transition' /></a>
-                         <button onClick={() => setDarkMode(!darkMode)} className="relative top-2 text-2xl">
-            {darkMode ? <MdLightMode className='text-amber-300' /> : <MdDarkMode className='text-black/50' />}
+                         <button onClick={() => setDarkMode(!darkMode)} className="text-2xl">
+                         {darkMode ? <MdDarkMode className='text-white' /> : <MdLightMode className='text-amber-300' /> }
         </button>
                     </div>
 
@@ -96,7 +98,7 @@ const Nav = () => {
                             <FaTelegram className='text-4xl text-white cursor-pointer' />
                             <FaInstagram className='text-4xl text-white cursor-pointer' />
                             <button onClick={() => setDarkMode(!darkMode)} className="text-4xl "> 
-            {darkMode ?  <MdLightMode className='text-amber-300' /> : <MdDarkMode className='text-black' />}
+            {darkMode ?  <MdLightMode className='text-amber-300' /> : <MdDarkMode className='text-white' />}
         </button>
                         </div>
                         
