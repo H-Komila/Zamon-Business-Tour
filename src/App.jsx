@@ -10,6 +10,8 @@ import Best from './components/Best/Best';
 import Reservat from './components/Reservat/Reservat';
 import Location from './components/Location/Location';
 import { CirclesWithBar } from 'react-loader-spinner';
+import Footer from './components/Footer/Footer';
+import Travel from './components/Travel/Travel';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -26,10 +28,10 @@ const App = () => {
         <CirclesWithBar
           height="100"
           width="100"
-          color="#14b8a6"
-          outerCircleColor="#14b8a6"
-          innerCircleColor="#14b8a6"
-          barColor="#14b8a6"
+          color="#ff0000"
+          outerCircleColor="#ff0000"
+          innerCircleColor="#ff0000"
+          barColor="#000"
           ariaLabel="circles-with-bar-loading"
           visible={true}
         />
@@ -48,6 +50,8 @@ const App = () => {
       <Best />
       <Reservat />
       <Location />
+      <Footer/>
+      <Travel/>
     </>
   );
 };

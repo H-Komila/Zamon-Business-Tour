@@ -145,7 +145,34 @@
     "text2": "Contact Us via Email",
     "text3": "Visit Our Offices",
     "text4": "15/25, Chilanzar - 9, Tashkent city"
+  },
+
+
+  "footer":{
+    "subtitle": "Make Your Reservation Through This Form",
+    "title": "Your Name",
+    "title1": "Number Of Guests",
+    "title2": "Your Phone Number",
+    "title3": "Check In Date",
+    "title4": "Choose Your Destination",
+    "title5": "Choose Your Visa Support",
+    "text":"Ex.John Smithee",
+    "text1":"ex.3 or 4 or 5",
+    "text2":"Ex.+99899 999 99 99",
+    "text4":"Antalya",
+    "text5":"Country",
+    "btn": "Make Your Reservation Now"
+  },
+
+  "travel":{
+    "subtitle": "Are You Looking To Travel ?",
+    "pages": "Make A Reservation By Clicking The Button",
+    "btn": "Book Yours Now",
+    "text": "Copyright @ 2026 Zamon Business Tour. All rights reserved"
   }
+
+
+
 
 
 }

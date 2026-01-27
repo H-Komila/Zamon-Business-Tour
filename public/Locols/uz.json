@@ -135,6 +135,32 @@
   "text2": "Elektron pochta orqali bog‘lanish",
   "text3": "Ofisimizga tashrif buyurish",
   "text4": "15/25, Chilonzor – 9, Toshkent shahri"
+},
+
+"footer": {
+  "subtitle": "Ushbu forma orqali bron qiling",
+  "title": "Ismingiz",
+  "title1": "Mehmonlar soni",
+  "title2": "Telefon raqamingiz",
+  "title3": "Kirish sanasi",
+  "title4": "Yo‘nalishni tanlang",
+  "title5": "Viza yordamini tanlang",
+  "text": "Masalan: John Smith",
+  "text1": "masalan: 3 yoki 4 yoki 5",
+  "text2": "Masalan: +99899 999 99 99",
+  "text4": "Antalya",
+  "text5": "Davlat",
+  "btn": "Hozir bron qiling"
+},
+
+"travel": {
+  "subtitle": "Sayohat qilishni rejalayapsizmi?",
+  "pages": "Tugmani bosib bron qiling",
+  "btn": "Hoziroq bron qiling",
+  "text": "Mualliflik huquqi © 2026 Zamon Business Tour. Barcha huquqlar himoyalangan"
 }
+
+
+
 
 }

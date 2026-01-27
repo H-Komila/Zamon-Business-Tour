@@ -121,7 +121,7 @@ const Section = () => {
           </Slider>
         </div>
       </div>
-      <hr className='mt-40 text-gray-100' />
+      <hr className='mt-10 text-gray-100' />
     </section>
   );
 }

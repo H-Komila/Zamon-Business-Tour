@@ -14,7 +14,7 @@ const Aside = () => {
   <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center px-4">
     <div className="relative w-full max-w-3xl aspect-video bg-black rounded-2xl overflow-hidden">
       
-      {/* Close */}
+      
       <button
         onClick={() => setVideoId(null)}
         className="absolute top-3 right-3 z-50 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center font-bold hover:bg-gray-200"
@@ -22,7 +22,7 @@ const Aside = () => {
         ✕
       </button>
 
-      {/* YouTube iframe */}
+     
       <iframe
         className="w-full h-full"
         src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
@@ -36,7 +36,7 @@ const Aside = () => {
   </div>
 )}
 
-        <aside className="overflow-hidden py-10 ">
+        <aside id='tours' className="overflow-hidden py-10 ">
             <div className='container mx-auto px-4'>
 
                 <div className="opacity-100 transition-all duration-700">

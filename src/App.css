@@ -9,6 +9,9 @@
     padding: 20px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 
@@ -37,6 +40,20 @@ body.darkMode {
   --text-color: #f1f5f9;
   background-color: #000000; 
 }
+
+@media (max-width: 768px) {
+  :root {
+    --nav-bg: #0d9488;
+    --text-color: #ffffff;
+  }
+  
+
+  body.darkMode {
+    --nav-bg: #000000;
+    --text-color: #e5e7eb;
+  }
+}
+
 
 
 .nav-dynamic {
