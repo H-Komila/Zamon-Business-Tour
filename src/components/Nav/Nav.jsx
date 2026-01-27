@@ -81,10 +81,10 @@ const Nav = () => {
 
             <div className={`fixed top-0 left-0 w-full h-125 bg-teal-600 transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out z-40 md:hidden flex flex-col items-center justify-center gap-8`}>
                 <ul className='flex flex-col items-center gap-6'>
-                    <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.home")}</a></li>
-                    <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.about")}</a></li>
-                    <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.tours")}</a></li>
-                    <li><a href="#" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.contacts")}</a></li>
+                    <li><a href="#home" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.home")}</a></li>
+                    <li><a href="#about" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.about")}</a></li>
+                    <li><a href="#tours" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.tours")}</a></li>
+                    <li><a href="#contacts" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.contacts")}</a></li>
                 </ul>
 
                 <div className='flex flex-col items-center gap-6 mt-4'>
