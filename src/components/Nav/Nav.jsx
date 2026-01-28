@@ -63,9 +63,9 @@ const Nav = () => {
                     </select>
                     <a href="#"><FaTelegram className='text-2xl text-white  hover:scale-110 transition' /></a>
                     <a href="#"><FaInstagram className='text-2xl text-white hover:scale-110 transition' /></a>
-                    <button onClick={() => setDarkMode(!darkMode)} className="text-[28px] w-10 h-10 bg-white  rounded-2xl border-6 border-double border-blue-400  ">
-                        {darkMode ? <MdDarkMode className='text-black/70' /> : <MdLightMode className='text-amber-300' />}
-                    </button>
+                        <button onClick={() => setDarkMode(!darkMode)} className="p-2 bg-white rounded-full">
+            {darkMode ? <MdDarkMode className="text-black" /> : <MdLightMode className="text-yellow-500" />}
+         </button>
                 </div>
 
 
@@ -79,7 +79,10 @@ const Nav = () => {
             </div>
 
 
-            <div className={`fixed top-0 left-0 w-full h-125 bg-teal-600 transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out z-40 md:hidden flex flex-col items-center justify-center gap-8`}>
+            <div className={`fixed top-0 left-0 w-full h-120 transform ${isOpen ? "translate-x-0" : "translate-x-full"} 
+    transition-transform duration-500 ease-in-out z-40 md:hidden flex flex-col items-center justify-center gap-8 
+    mobile-dynamic rounded-[50px]`}
+>
                 <ul className='flex flex-col items-center gap-6'>
                     <li><a href="#home" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.home")}</a></li>
                     <li><a href="#about" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.about")}</a></li>
@@ -87,19 +90,23 @@ const Nav = () => {
                     <li><a href="#contacts" onClick={() => setIsOpen(false)} className='text-white text-[16px] font-semibold  hover:text-gray-900  transition transform duration-300 hover:scale-200'>{t("nav.contacts")}</a></li>
                 </ul>
 
-                <div className='flex flex-col items-center gap-6 mt-4'>
-                    <select value={i18n.language} onChange={handleChangeLanguage} className='w-25 h-10 text-[20px] text-teal-500 font-bold border-2 border-teal-500 rounded-lg bg-white px-2 outline-none'>
-                        <option value="en">En</option>
-                        <option value="uz">Uz</option>
-                        <option value="ru">Ru</option>
-                    </select>
+                <div className='flex flex-col items-center gap-6'>
+         <select 
+            className="bg-white text-black rounded px-2 py-1" 
+            value={i18n.language} 
+            onChange={handleChangeLanguage}
+         >
+            <option value="uz">Uz</option>
+            <option value="ru">Ru</option>
+            <option value="en">En</option>
+         </select>
 
                     <div className='flex items-center gap-10'>
                         <FaTelegram className='text-4xl text-white cursor-pointer' />
                         <FaInstagram className='text-4xl text-white cursor-pointer' />
-                        <button onClick={() => setDarkMode(!darkMode)} className="text-4xl w-12 h-12 bg-white  rounded-2xl border-6 border-double border-blue-400  ">
-                            {darkMode ? <MdDarkMode className='text-black/70' /> : <MdLightMode className='text-amber-300' /> }
-                        </button>
+                        <button onClick={() => setDarkMode(!darkMode)} className="p-3 bg-white rounded-full">
+            {darkMode ? <MdDarkMode className="text-black" /> : <MdLightMode className="text-yellow-500" />}
+         </button>
                     </div>
 
                 </div>

@@ -19,7 +19,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000); 
+    }, 2000); 
   }, []);
 
   if (loading) {

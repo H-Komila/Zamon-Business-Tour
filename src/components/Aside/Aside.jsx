@@ -64,7 +64,7 @@ const Aside = () => {
                         <div className='flex-1'>
                             <div className='flex flex-col lg:flex-row lg:items-center justify-between gap-6'>
                                 <span>
-                                    <h1 className='text-[24px] text-black font-extrabold mb-2'>{t("aside.title")}</h1>
+                                    <h1 className='text-[24px] text-gray-700 font-extrabold mb-2'>{t("aside.title")}</h1>
                                     <p className='text-[16px] text-gray-400 font-medium mb-4'>{t("aside.text")}</p>
                                 </span>
                                 <button
@@ -94,7 +94,7 @@ const Aside = () => {
                         <div className='flex-1'>
                             <div className='flex flex-col lg:flex-row lg:items-center justify-between gap-6'>
                                 <span>
-                                    <h1 className='text-[24px] text-black font-extrabold mb-2'>{t("aside.title1")}</h1>
+                                    <h1 className='text-[24px] text-gray-700 font-extrabold mb-2'>{t("aside.title1")}</h1>
                                     <p className='text-[16px] text-gray-400 font-medium mb-4'>{t("aside.text1")}</p>
                                 </span>
                                 <button

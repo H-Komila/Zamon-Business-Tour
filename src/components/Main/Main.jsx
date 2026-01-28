@@ -86,7 +86,7 @@ const Main = () => {
       <main className="py-10">
         <div className='container mx-auto px-4'>
           <div className="mb-12 md:mb-20">
-            <h1 className='text-[22px] md:text-[28px] text-gray-700 font-black mb-3'>{t("main.subtitle")}</h1>
+            <h1 className='text-[22px] md:text-[28px] text-gray-300 font-black mb-3'>{t("main.subtitle")}</h1>
             <p className='text-[14px] md:text-[18px] font-semibold w-full max-w-[550px] text-gray-400 leading-relaxed'>{t("main.pages")}</p>
           </div>
 
@@ -107,7 +107,7 @@ const Main = () => {
                   <div>
                     <div className='flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6'>
                       <span>
-                        <h1 className='text-[24px] text-black font-extrabold mb-1'>{t(item.title)}</h1>
+                        <h1 className='text-[24px] text-gray-600 font-extrabold mb-1'>{t(item.title)}</h1>
                         <p className='text-[16px] text-gray-400 font-medium'>{t(item.text)}</p>
                       </span>
                       

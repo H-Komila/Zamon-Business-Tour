@@ -32,26 +32,16 @@ html{
 
 :root {
   --nav-bg: #14b8a6; 
-  --text-color: #ffffff;
+  --mobile-menu-bg: #0d9488; 
 }
 
 body.darkMode {
-  --nav-bg: #000000; 
-  --text-color: #f1f5f9;
-  background-color: #000000; 
+  --nav-bg: #0c0c0c; 
+  --mobile-menu-bg: #0c0c0c; 
+  background-color: #0c0c0c; 
 }
-
-@media (max-width: 768px) {
-  :root {
-    --nav-bg: #0d9488;
-    --text-color: #ffffff;
-  }
-  
-
-  body.darkMode {
-    --nav-bg: #000000;
-    --text-color: #e5e7eb;
-  }
+.mobile-dynamic {
+    background-color: var(--mobile-menu-bg) !important;
 }
 
 
@@ -72,4 +62,12 @@ body.darkMode {
 
 
 
-
+body.darkMode .card-bg {
+    background-color: #1a1a1a !important;
+    color: white !important;
+}
+body.darkMode .card-bg h1, 
+body.darkMode .card-bg p,
+body.darkMode .card-bg li h1 {
+    color: #e5e7eb !important;
+}

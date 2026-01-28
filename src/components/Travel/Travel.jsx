@@ -9,7 +9,7 @@ const Travel = () => {
         <>
             <div 
                 style={{ backgroundImage: `url(${Cta})` }}
-                className="bg-cover bg-center min-h-[400px] w-full flex items-center py-10"
+                className="bg-cover bg-center min-h-[300px] w-full flex items-center py-10"
             >
                 <div className='container mx-auto px-4'>
                     <div className='flex flex-col md:flex-row justify-between items-center gap-8 p-4 md:p-8 rounded-2xl backdrop-blur-sm'>
