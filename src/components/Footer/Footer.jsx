@@ -16,8 +16,8 @@ const Footer = () => {
 
     const SendMessage = (e) => {
         e.preventDefault(); 
-        const token = "8204597010:AAFhpoACYMV4CnD2Oo8E5gr87M5HQzzN_Ds";
-        const chat_id = "8114228775";
+        const token = "8958638593:AAFe8CcrxNnM5tMtCxLFZ7syveYTiAmBqmU";
+        const chat_id = "8366504732";
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
         const message = `🌟 **Yangi Bron** 🌟\n👤 Ism: ${formData.name}\n📞 Tel: ${formData.phone}\n👥 Odam: ${formData.guests}\n📅 Sana: ${formData.date}\n📍 Yo'nalish: ${formData.destination}\n📄 Viza: ${formData.visaType}`;
